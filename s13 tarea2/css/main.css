@@ -1,0 +1,37 @@
+body{
+    background-image: linear-gradient(to right top, #000000, #512623, #945321, #b79500, #a7e518);
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+h1{
+    color: rgb(200, 201, 210);
+    font-size: 35px;
+}
+.grupo{
+    display: block;
+    width: 350px;
+    height: 50px;
+    margin-bottom:10px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    color:rgb(10, 10, 10);
+    background-image: linear-gradient(to right top, #f90a0a, #bd0025, #7f0827, #41101d, #000000);
+    transition: .5s ease-in-out;
+}
+.grupo:hover{
+    height: 60px;
+    background-image: linear-gradient(to right top, #d3fd00, #edcc00, #f99800, #f66100, #e5182b);
+}
+.grupo:ventas{
+    background-image: linear-gradient(to right top, #46b51e);
+}
